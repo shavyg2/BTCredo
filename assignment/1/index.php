@@ -1,7 +1,7 @@
 <?php
 
 
-include $_SERVER['REAL_REAL_DOCUMENT_ROOT']."/header.php"
+include $_SERVER['REAL_DOCUMENT_ROOT']."/header.php"
 ?>
 
 
@@ -17,5 +17,5 @@ include $_SERVER['REAL_REAL_DOCUMENT_ROOT']."/header.php"
 
 
 <?php
-include $_SERVER['REAL_REAL_DOCUMENT_ROOT']."/footer.php"
+include $_SERVER['REAL_DOCUMENT_ROOT']."/footer.php"
 ?>

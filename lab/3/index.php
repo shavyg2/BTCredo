@@ -1,6 +1,4 @@
 <?php
-
-
 include $_SERVER['REAL_DOCUMENT_ROOT']."/header.php"
 ?>
 
