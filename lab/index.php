@@ -1,5 +1,5 @@
 <?php
-include $_SERVER['DOCUMENT_ROOT']."/header.php"
+include $_SERVER['REAL_DOCUMENT_ROOT']."/header.php"
 ?>
 <h1>Labs</h1>
 
@@ -20,5 +20,5 @@ include $_SERVER['DOCUMENT_ROOT']."/header.php"
 </div>
 
 <?php
-include $_SERVER['DOCUMENT_ROOT']."/footer.php"
+include $_SERVER['REAL_DOCUMENT_ROOT']."/footer.php"
 ?>

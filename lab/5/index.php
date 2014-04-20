@@ -1,7 +1,7 @@
 <?php
 
 
-include $_SERVER['DOCUMENT_ROOT']."/header.php"
+include $_SERVER['REAL_DOCUMENT_ROOT']."/header.php"
 ?>
 
 <h1>Lab 5</h1>
@@ -14,5 +14,5 @@ include $_SERVER['DOCUMENT_ROOT']."/header.php"
     <p><a href="/resources/Coffee-Stir_x264.mp4">Coffee-Stir video mp4</a></p>
     <p><a href="/resources/Coffee-Stir_VP8_002.webm">Coffee-Stir video webm</a></p>
 <?php
-include $_SERVER['DOCUMENT_ROOT']."/footer.php"
+include $_SERVER['REAL_DOCUMENT_ROOT']."/footer.php"
 ?>

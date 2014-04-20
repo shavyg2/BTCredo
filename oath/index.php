@@ -1,7 +1,7 @@
 <?php
 
 
-include $_SERVER['DOCUMENT_ROOT']."/header.php"
+include $_SERVER['REAL_DOCUMENT_ROOT']."/header.php"
 ?>
 
     <h3>Student Oath</h3>
@@ -20,5 +20,5 @@ include $_SERVER['DOCUMENT_ROOT']."/header.php"
 
 
 <?php
-include $_SERVER['DOCUMENT_ROOT']."/footer.php"
+include $_SERVER['REAL_DOCUMENT_ROOT']."/footer.php"
 ?>
