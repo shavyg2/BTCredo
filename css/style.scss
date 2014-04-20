@@ -1,0 +1,211 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+div, span, body {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkkit-box-sizing: border-box; }
+
+html, body {
+  height: 100%; }
+
+body {
+  font-family: sans-serif;
+  color: dimgrey;
+  background-color: #cbd4bf;
+  padding: 15px 10px; }
+
+body, div, span {
+  position: relative; }
+
+.container, .wrapper, nav {
+  max-width: 960px;
+  display: block;
+  margin: auto; }
+
+.line, nav:after {
+  min-height: 2px;
+  max-width: 98%;
+  margin: 10px auto;
+  background-color: rgba(0, 0, 0, 0.13);
+  display: block; }
+
+.wrapper {
+  display: table;
+  width: 100%;
+  background-color: white;
+  box-shadow: -5px 5px #829d8b;
+  height: 100%;
+  position: relative; }
+
+.page {
+  padding: 20px;
+  background-color: #ffffff; }
+
+a {
+  color: dodgerblue;
+  text-decoration: none; }
+
+.h, h1, h2, h3, h4, h5, h6 {
+  color: #e4b434;
+  margin-bottom: 10px; }
+
+h1 {
+  font-size: 2em; }
+
+h2 {
+  font-size: 1.8em; }
+
+h3 {
+  font-size: 1.6em; }
+
+h4 {
+  font-size: 1.4em; }
+
+h5 {
+  font-size: 1.2em; }
+
+h6 {
+  font-size: 1.1em; }
+
+.underline {
+  text-decoration: underline; }
+
+p {
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 80%; }
+@media screen and (max-width: 800px) {
+  p {
+    width: 95%; } }
+@media screen and (max-width: 500px) {
+  p {
+    width: 99%; } }
+
+.footer-container {
+  display: table-row;
+  position: relative;
+  vertical-align: bottom; }
+.footer-container .footer {
+  display: table-cell;
+  background-color: #f4f4f4;
+  padding: 10px;
+  height: 1%; }
+.footer-container .footer nav {
+  border: none; }
+.footer-container .footer nav:after {
+  display: none; }
+.footer-container .footer nav ul li {
+  font-size: 1em; }
+
+label {
+  display: block;
+  margin: 5px auto 1px; }
+
+audio {
+  margin: 2px; }
+
+nav {
+  padding: 20px;
+  margin-bottom: 15px; }
+nav:after {
+  content: ""; }
+nav ul li {
+  display: inline-block;
+  margin: 5px 15px;
+  font-size: 1.5em;
+  color: #535774; }
+nav ul li:first-of-type {
+  margin-left: 0; }
+@media screen and (max-width: 500px) {
+  nav ul li {
+    display: block;
+    margin-left: 5px !important; } }
+
+.avatar-infobox {
+  display: block; }
+.avatar-infobox .avatar {
+  display: inline-block;
+  width: 30%;
+  padding: 0 10px; }
+.avatar-infobox .avatar img {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  display: block; }
+@media screen and (max-width: 500px) {
+  .avatar-infobox .avatar {
+    display: block;
+    width: 100%;
+    padding-bottom: 10px; } }
+.avatar-infobox .infobox {
+  display: inline-block;
+  vertical-align: top;
+  width: 70%; }
+.avatar-infobox .infobox h1 {
+  padding-bottom: 10px; }
+@media screen and (max-width: 500px) {
+  .avatar-infobox .infobox h1 {
+    text-align: center; } }
+.avatar-infobox .infobox div {
+  margin: 10px; }
+@media screen and (max-width: 500px) {
+  .avatar-infobox .infobox {
+    display: block;
+    width: 100%; } }
+
+.links a {
+  display: block;
+  padding: 10px; }
+
+.image-holder {
+  text-align: center; }
+.image-holder img {
+  display: inline-block;
+  max-width: 100%;
+  margin: auto; }
